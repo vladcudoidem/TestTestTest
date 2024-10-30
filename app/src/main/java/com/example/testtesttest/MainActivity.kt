@@ -37,19 +37,19 @@ fun SecondScreen() {
     Box(
         modifier = Modifier
             .background(Color.Gray)
-            .size(50.dp, 100.dp),
+            .size(100.dp, 200.dp),
         contentAlignment = Alignment.Center
     ) {
         Box(
             contentAlignment = Alignment.Center,
             modifier = Modifier
-                .size(30.dp, 80.dp)
+                .size(60.dp, 160.dp)
                 .clip(RoundedCornerShape(50))
                 .background(Color.Blue)
         ) {
             Box(
                 modifier = Modifier
-                    .size(15.dp, 40.dp)
+                    .size(30.dp, 80.dp)
                     .clip(RoundedCornerShape(50))
                     .background(Color.Gray)
             )
